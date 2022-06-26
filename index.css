@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./universe.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  width: 350px;
+  height: auto;
+  background-color: #fff;
+  border: 10px solid black;
+  border-radius: 16px;
+}
+
+.title {
+  border-bottom: 10px solid black;
+  font-size: 3rem;
+  text-align: center;
+  padding: 16px;
+}
+
+.text {
+  padding: 32px;
+}
+
+.image {
+  width: 100%;
+}
